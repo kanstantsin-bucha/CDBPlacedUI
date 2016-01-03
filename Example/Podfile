@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'CDBPlacedUI_Example', :exclusive => true do
+  pod "CDBPlacedUI", :path => "../"
+end
+
+target 'CDBPlacedUI_Tests', :exclusive => true do
+  pod "CDBPlacedUI", :path => "../"
+
+  
+end
