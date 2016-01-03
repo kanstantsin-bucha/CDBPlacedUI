@@ -40,7 +40,7 @@
 		1D364665034DF7EBEA1A2E8B /* Pods_CDBPlacedUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDBPlacedUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D942B039539A07A059C0F6 /* CDBPlacedUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CDBPlacedUI.podspec; path = ../CDBPlacedUI.podspec; sourceTree = "<group>"; };
 		58CC5CF2B1F7C8C8E37CFD48 /* Pods-CDBPlacedUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBPlacedUI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDBPlacedUI_Example/Pods-CDBPlacedUI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* CDBPlacedUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CDBPlacedUI.app; path = CDBPlacedUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* CDBPlacedUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDBPlacedUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -108,7 +108,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* CDBPlacedUI.app */,
+				6003F58A195388D20070C39A /* CDBPlacedUI_Example.app */,
 				6003F5AE195388D20070C39A /* Tests.xctest */,
 			);
 			name = Products;
@@ -213,7 +213,7 @@
 			);
 			name = CDBPlacedUI_Example;
 			productName = CDBPlacedUI;
-			productReference = 6003F58A195388D20070C39A /* CDBPlacedUI.app */;
+			productReference = 6003F58A195388D20070C39A /* CDBPlacedUI_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* CDBPlacedUI_Tests */ = {

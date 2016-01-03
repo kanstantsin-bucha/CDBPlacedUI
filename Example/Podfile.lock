@@ -1,0 +1,14 @@
+PODS:
+  - CDBPlacedUI (0.0.1)
+
+DEPENDENCIES:
+  - CDBPlacedUI (from `../`)
+
+EXTERNAL SOURCES:
+  CDBPlacedUI:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CDBPlacedUI: b9b356fcb88036cf303c7970fee4ce5de44d5ca9
+
+COCOAPODS: 0.38.2

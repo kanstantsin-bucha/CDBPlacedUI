@@ -1,12 +1,8 @@
-//
-//  CDBViewController.m
-//  CDBPlacedUI
-//
-//  Created by yocaminobien on 01/03/2016.
-//  Copyright (c) 2016 yocaminobien. All rights reserved.
-//
+
 
 #import "CDBViewController.h"
+@import CDBPlacedUI;
+
 
 @interface CDBViewController ()
 
@@ -17,13 +13,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    UIView * redView = [UIView new];
+    redView.backgroundColor = [UIColor redColor];
+    
+    [CDBPlaceholderMaster placeUI:redView
+                    inPlaceholder:self.view
+                     usingOptions:CDBPlacedUIOptionsCentered | CDBPlacedUIOptionsEqualSize];
+    
+    UIViewController * controller = [UIViewController new];
+    controller.view.frame = CGRectMake(0, 0, 200, 200);
+    controller.view.backgroundColor = [UIColor greenColor];
+    [CDBContainmentMaster displayChildViewController:controller
+                                         withOptions:CDBPlacedUIOptionsCentered | CDBPlacedUIOptionsConstantSize
+                                              inView:redView
+                                    ofViewController:self];
 }
 
 @end
