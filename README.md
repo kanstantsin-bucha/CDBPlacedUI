@@ -1,3 +1,5 @@
+It was archived. Please write to me at kanstantsin.bucha@icloud.com in case any issues occur.
+
 # CDBPlacedUI
 
 Use it to place views into placeholders and implement view controllers containment in easy way.
